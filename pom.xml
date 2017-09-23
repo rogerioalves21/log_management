@@ -14,4 +14,13 @@
     <module>log-management-core</module>
     <!-- module>log-management-web</module -->
   </modules>
+  
+  <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+      <sonar.login>rogerioalves21@github</sonar.login>
+      <sonar.password>@Loureiro3</sonar.password>
+  </properties>
+  
 </project> 

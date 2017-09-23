@@ -1,3 +1,4 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+log-management-core,br.com.sicoob.log.api.service,ServiceApiImpl,4,0,0,0,2,0,2,0,2,0
 log-management-core,br.com.sicoob.log.api.model,LogItem,0,17,0,0,0,8,0,5,0,5
 log-management-core,br.com.sicoob.log.api.model,LogType,9,39,0,0,0,2,2,2,2,2
