@@ -12,7 +12,7 @@
   <name>log-management</name>
   <modules>
     <module>log-management-core</module>
-    <!-- module>log-management-web</module -->
+    <module>log-management-web</module>
   </modules>
   
   <properties>

@@ -12,6 +12,6 @@ public interface ServiceApi {
    * Realiza a inclusao de um log.
    * @param log Dados do log.
    */
-  public void log(LogItem log);
+  void log(LogItem log);
   
 }

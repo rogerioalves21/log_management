@@ -16,9 +16,11 @@ public class LogItemTest {
     LogItem log = new LogItem();
     log.setType(LogType.INFO);
     log.setMessage("Mensagem de teste");
+    log.setStacktrace("Error");
     
     Assert.assertNotNull(log.getType());
     Assert.assertNotNull(log.getMessage());
+    Assert.assertNotNull(log.getStacktrace());
   }
   
 }

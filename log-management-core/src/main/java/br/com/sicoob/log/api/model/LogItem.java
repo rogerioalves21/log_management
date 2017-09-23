@@ -8,6 +8,7 @@ public class LogItem {
   
   private LogType type;
   private String message;
+  private String stacktrace;
   
   /**
    * Construtor.
@@ -46,6 +47,22 @@ public class LogItem {
    */
   public LogType getType() {
     return this.type;
+  }
+  
+  /**
+   * Getter.
+   * @return Stack.
+   */
+  public String getStacktrace() {
+    return this.stacktrace;
+  }
+  
+  /**
+   * Setter.
+   * @param stacktrace Mensagem de erro.
+   */
+  public void setStacktrace(String stacktrace) {
+    this.stacktrace = stacktrace;
   }
   
 }
