@@ -10,24 +10,8 @@
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>SLog Management</name>
-  <developers>
-    <developer>
-      <id>rogerio.rodrigues</id>
-      <name>Rogério Alves Rodrigues</name>
-      <email>rogerio.rodrigues@sicoob.com.br</email>
-      <organization>Sicoob</organization>
-      <organizationUrl>http://www.sicoob.com.br</organizationUrl>
-      <roles>
-        <role>owner</role>
-        <role>developer</role>
-      </roles>
-      <timezone>-8</timezone>
-    </developer>
-  </developers>
   <modules>
     <module>log-management-core</module>
     <module>log-management-web</module>
   </modules>
-         
-    
 </project> 
