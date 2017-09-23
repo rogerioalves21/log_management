@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+      
+  <groupId>br.com.sicoob</groupId>
+  <artifactId>sicoob-parent</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>SLog Management</name>
+  <developers>
+    <developer>
+      <id>rogerio.rodrigues</id>
+      <name>Rogério Alves Rodrigues</name>
+      <email>rogerio.rodrigues@sicoob.com.br</email>
+      <organization>Sicoob</organization>
+      <organizationUrl>http://www.sicoob.com.br</organizationUrl>
+      <roles>
+        <role>owner</role>
+        <role>developer</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+  </developers>
+  <modules>
+    <module>log-management-core</module>
+    <module>log-management-web</module>
+  </modules>
+         
+    
+</project> 
