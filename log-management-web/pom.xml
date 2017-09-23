@@ -13,6 +13,13 @@
     </parent>
     
     <dependencies>
+      <dependency>
+        <groupId>br.com.sicoob.aplicativos</groupId>
+        <artifactId>log-management-core</artifactId>
+        <version>0.1</version>
+        <type>jar</type>
+        <scope>provided</scope>
+      </dependency>
         <dependency>
   <groupId>com.owlike</groupId>
   <artifactId>genson</artifactId>
