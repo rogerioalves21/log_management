@@ -17,6 +17,12 @@ public final class LogManager {
 
     }
 
+    private ServiceApi api;
+
+    protected void setApi(ServiceApi api) {
+        this.api = api;
+    }
+
     /**
      * Obtem a instancia de LogManager.
      */
@@ -29,8 +35,10 @@ public final class LogManager {
      * @param item Log.
      */
     public void log(LogItem item) {
-        ServiceApi api = new ServiceApiImpl();
-        api.log(item);
+        if (this.api == null) {
+            this.api = new ServiceApiImpl();
+        }
+        this.api.log(item);
     }
 
 }

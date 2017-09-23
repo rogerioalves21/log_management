@@ -2,3 +2,4 @@
 /projects/log_management/log-management-core/src/main/java/br/com/sicoob/log/api/model/LogItem.java
 /projects/log_management/log-management-core/src/main/java/br/com/sicoob/log/api/service/ServiceApi.java
 /projects/log_management/log-management-core/src/main/java/br/com/sicoob/log/api/service/ServiceApiImpl.java
+/projects/log_management/log-management-core/src/main/java/br/com/sicoob/log/api/service/LogManager.java

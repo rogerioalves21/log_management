@@ -2,3 +2,4 @@ br/com/sicoob/log/api/model/LogItem.class
 br/com/sicoob/log/api/service/ServiceApi.class
 br/com/sicoob/log/api/model/LogType.class
 br/com/sicoob/log/api/service/ServiceApiImpl.class
+br/com/sicoob/log/api/service/LogManager.class
