@@ -1,2 +1,5 @@
+/projects/log_management/log-management-web/src/main/java/br/com/sicoob/log/facade/LogManagementFacade.java
+/projects/log_management/log-management-web/src/main/java/br/com/sicoob/log/dao/LogManagementDao.java
 /projects/log_management/log-management-web/src/main/java/br/com/sicoob/log/config/Configuration.java
 /projects/log_management/log-management-web/src/main/java/br/com/sicoob/log/resources/LogApi.java
+/projects/log_management/log-management-web/src/main/java/br/com/sicoob/log/excecao/LogManagementException.java

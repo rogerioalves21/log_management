@@ -1,2 +1,5 @@
 br/com/sicoob/log/resources/LogApi.class
 br/com/sicoob/log/config/Configuration.class
+br/com/sicoob/log/excecao/LogManagementException.class
+br/com/sicoob/log/dao/LogManagementDao.class
+br/com/sicoob/log/facade/LogManagementFacade.class

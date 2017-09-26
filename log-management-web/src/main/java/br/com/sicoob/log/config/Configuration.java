@@ -1,5 +1,6 @@
 package br.com.sicoob.log.config;
 
+import br.com.sicoob.log.resources.*;
 import java.util.HashSet;
 import java.util.Set;
 import javax.ws.rs.ApplicationPath;
@@ -18,6 +19,7 @@ public class Configuration extends Application {
     @Override
     public Set<Class< ? >> getClasses() {
         Set<Class< ? >> classes = new HashSet<Class< ? >>();
+        classes.add(LogApi.class);
         return classes;
     }
 

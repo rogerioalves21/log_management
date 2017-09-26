@@ -1,10 +1,12 @@
 package br.com.sicoob.log.api.model;
 
+import java.io.Serializable;
+
 /**
  * Representa um item de log para ser escrito.
  * @author Rogerio Alves Rodrigues
  */
-public class LogItem {
+public class LogItem implements Serializable {
   
   private LogType type;
   private String message;
