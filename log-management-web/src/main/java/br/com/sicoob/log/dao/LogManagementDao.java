@@ -10,6 +10,8 @@ import org.mapdb.DBMaker;
 import org.mapdb.HTreeMap;
 
 import br.com.sicoob.log.api.model.LogItem;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Acesso a base de dados.
@@ -26,6 +28,7 @@ public class LogManagementDao {
      * @throws Erro ao criar o arquivo de log.
      */
     public void salvar(LogItem item) throws IOException {
+        Logger.getLogger(getClass().getName()).log(Level.INFO, "Erro ao salvar um item");
         File dbFile = File.createTempFile("mapdb", "db");
         DB db = DBMaker.fileDB(dbFile).closeOnJvmShutdown().make();
 

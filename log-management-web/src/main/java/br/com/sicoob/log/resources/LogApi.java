@@ -43,6 +43,7 @@ public class LogApi {
    
     @GET
     @Path("/ola")
+    @Produces({MediaType.TEXT_PLAIN})
     public String olaMundo() {
       return "Ola Mundo Jersey";
     }
