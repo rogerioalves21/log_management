@@ -13,6 +13,7 @@ public class LogItem implements Serializable {
   private String stacktrace;
   
   /**
+   * Correcao.
    * Construtor.
    */
   public LogItem() {
