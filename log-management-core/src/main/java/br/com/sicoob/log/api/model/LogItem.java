@@ -16,7 +16,6 @@ public class LogItem implements Serializable {
    * Construtor.
    */
   public LogItem() {
-    
   }
   
   /**
